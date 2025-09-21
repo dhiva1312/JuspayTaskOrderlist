@@ -1,0 +1,188 @@
+.header-section {
+  width: 948px;
+  height: 68px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 28px;
+  border-bottom: 1px solid var(--black-10, #FFFFFF1A);
+  opacity: 1;
+  /* position: relative; */
+  /* left: 212px; */
+}
+
+.header-box {
+  width: 256px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  opacity: 1;
+}
+.header-big-box {
+  width: 316px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  opacity: 1;
+}
+.inner-box {
+  width: 64px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center content */
+  gap: 8px;
+  border-radius: 8px;
+  opacity: 1;
+  background: transparent; /* You can change to any color if needed */
+}
+.inner-side-box {
+ width: 184px;
+  height: 28px;
+  gap: 8px;                 /* flex/grid spacing */
+  transform: rotate(0deg);  /* angle */
+  opacity: 1;
+  border-radius: 8px;
+  display: flex;            /* gap works only if flex or grid */
+  align-items: center;      /* vertical centering */
+  justify-content: center;
+}
+.iconbox{
+    width: 28px;
+  height: 28px;
+  display: flex;           /* gap will work */
+  gap: 4px;
+  align-items: center;     /* vertical center */
+  justify-content: center; /* horizontal center */
+  transform: rotate(0deg);
+  opacity: 1;
+  border-radius: 8px;
+  padding: 4px;
+}
+.innerbox-1 {
+  width: 98px;
+  height: 28px;
+  padding: 4px 8px;        /* top/bottom 4px, left/right 8px */
+  gap: 4px;                 /* flex/grid spacing */
+  transform: rotate(0deg);  /* angle */
+  opacity: 1;
+  border-radius: 8px;
+  display: flex;            /* gap works only if flex or grid */
+  align-items: center;      /* vertical centering */
+  justify-content: center;  /* horizontal centering */
+}
+.innerbox-2 {
+  width: 5px;
+  height: 20px;
+  transform: rotate(0deg);  /* angle */
+  opacity: 1;
+  border-radius: 8px;
+}
+.innerbox-3{
+    
+  width: 65px;
+  height: 28px;
+  padding: 4px 8px;        
+  gap: 4px;                
+  transform: rotate(0deg); 
+  opacity: 1;
+  border-radius: 8px;
+  display: flex;            
+  align-items: center;      
+  justify-content: center; 
+
+
+}
+.searching-field {
+  width: 160px;
+  height: 28px;
+  transform: rotate(0deg);       /* angle */
+  opacity: 1;
+  gap: 8px;                      /* works if flex/grid */
+  border-radius: 8px;
+  padding: 4px 8px;              /* top/bottom 4px, left/right 8px */
+  background: var(--black-5, #FFFFFF1A);
+  display: flex;                 /* for gap */
+  align-items: center;           /* vertical centering */
+  justify-content: center;       /* horizontal centering */
+}
+.theme-field{
+    
+  width: 136px;
+  height: 28px;
+  transform: rotate(0deg);  
+  opacity: 1;
+  gap: 8px;                 
+  border-radius: 8px;
+  display: flex;            
+  align-items: center;       
+  justify-content: center;   
+
+
+}
+.search-field {
+  width: 116px;
+  height: 20px;
+  transform: rotate(0deg);   
+  opacity: 1;
+  gap: 4px;                  
+  border-radius: 8px;
+  display: flex;            
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4px 8px;          
+  /* background: #fff;          */
+  /* border: 1px solid #ccc;     */
+}
+.searchicon {
+  width: 16px;
+  height: 16px;
+  transform: rotate(0deg);   /* angle */
+  opacity: 1;
+  border-radius: 8px;
+  margin-bottom: 10px;   
+   color: var(--black-20, #FFFFFF33);
+}
+
+.searchtext{
+     width: 96px;
+  height: 20px;
+  transform: rotate(0deg);  /* angle */
+  opacity: 1;
+  border-radius: 8px;
+}
+#textt{
+    font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: var(--black-20, #FFFFFF33);
+  border-radius: 8px;
+  display: flex;
+  
+}
+.icons-container{
+    
+  width: 28px;
+  height: 28px;
+  transform: rotate(0deg);
+  opacity: 1;
+  gap: 4px;
+  border-radius: 8px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+
+
+
+
+

@@ -1,0 +1,345 @@
+.sidebar-container {
+    width: 212px;
+    height: 1206px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    opacity: 1;
+    padding: 20px 16px;
+    border-right: 1px solid var(--black-10, #FFFFFF1A);
+    /* Figma exact border color */
+
+}
+
+
+.sidebar-logo {
+    width: 180px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    opacity: 1;
+    border-radius: 8px;
+    padding: 4px;
+
+
+}
+
+.sidebar-inner-item {
+    width: 90px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    opacity: 1;
+    border-radius: 8px;
+
+}
+
+.sidebar-icon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    border-radius: 8px;
+
+}
+
+.logo-img {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+    border-radius: 80px;
+    /* fully rounded (almost circle) */
+    object-fit: cover;
+    /* image distort aagama fit aagum */
+}
+
+.text-box {
+    width: 58px;
+    height: 20px;
+    opacity: 1;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text center align */
+}
+
+.text-style {
+    width: 58px;
+    height: 20px;
+    opacity: 1;
+    color: #FFFFFF;
+    /* White background */
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    /* Regular */
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    /* small smooth corners */
+}
+
+.sidebar-frame-1 {
+    width: 180px;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    /* space between items inside frame */
+    opacity: 1;
+    padding-bottom: 12px;
+    /* background-color: aqua; */
+}
+
+.group-1 {
+    width: 180px;
+    height: 28px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    opacity: 1;
+    border-radius: 8px;
+}
+
+.sub-group-1 {
+    width: 78px;
+    height: 28px;
+    padding: 4px 8px;
+    /* top/bottom 4px, left/right 8px */
+    border-radius: 8px;
+
+    opacity: 1;
+    gap: 4px;
+    /* If it's a flex or grid container */
+    transform: rotate(0deg);
+    /* Angle */
+    font-size: 12px;
+    /* Adjust as needed for "Small" text size */
+    box-sizing: border-box;
+    /* To include padding in width/height */
+}
+
+.text-box-vertical {
+    width: 62px;
+    height: 20px;
+    border-radius: 8px;
+
+    opacity: 1;
+    transform: rotate(0deg);
+    /* Angle */
+    padding: 2px 4px;
+    /* Optional: small padding for text inside */
+    box-sizing: border-box;
+    /* Include padding in width/height */
+    display: flex;
+    flex-direction: column;
+    /* Vertical direction */
+    gap: 4px;
+    /* Optional: spacing if you have multiple items inside */
+}
+
+.text-favorites {
+    width: 62px;
+    height: 20px;
+    opacity: 1;
+    transform: rotate(0deg);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+
+.subgroup-item {
+    width: 74px;
+    height: 28px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    border: none;
+    opacity: 1;
+    transform: rotate(0deg);
+    font-size: 12px;
+    box-sizing: border-box;
+    gap: 4px;
+}
+
+.text-box-vertical-2 {
+    width: 58px;
+    height: 20px;
+    border-radius: 8px;
+
+    opacity: 1;
+    transform: rotate(0deg);
+    padding: 2px 4px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.subgroup-item-text {
+    width: 58px;
+    height: 20px;
+    opacity: 1;
+    transform: rotate(0deg);
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: center;
+    vertical-align: middle;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.Frame-2-container {
+  width: 180px;
+  height: 168px;
+  padding-bottom: 12px;
+  gap: 4px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+}
+.box-container{
+    
+  width: 180px;
+  height: 28px;
+  border-radius: 8px;
+  padding: 4px 12px;
+  transform: rotate(0deg);
+  opacity: 1;
+
+
+}
+.inner-text{
+   
+  width: 156px;
+  height: 20px;
+  opacity: 1;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: var(--black-40, #FFFFFF66);
+
+
+}
+.default-vector-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 8px;
+  opacity: 1;
+}
+.element {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  opacity: 0;
+  transform: rotate(0deg);
+}
+.selected {
+  width: 20px;
+  height: 20px;
+  opacity: 1;
+  transform: rotate(0deg);
+}
+.line {
+  width: 4px;
+  height: 16px;
+  background: var(--Primary-Brand, #C6C7F8);
+  opacity: 1;
+  position: relative;
+  top: 2px;
+  transform: rotate(0deg);
+}
+.vector-icon-layout {
+  width: 16px;
+  height: 16px;
+  opacity: 1;
+  transform: rotate(0deg);
+}
+.vector-icon {
+  width: 5px;
+  height: 9px;
+  background: var(--black-20, #FFFFFF33);
+  opacity: 1;
+  position: relative;
+  top: 3.5px;
+  left: 5.5px;
+  transform: rotate(0deg);
+}
+.chartpieslice {
+  width: 20px;
+  height: 20px;
+  border-radius: 8px;
+  transform: rotate(0deg);
+  opacity: 1;
+ 
+}
+.icon-text{
+    
+  width: 49px;
+  height: 20px;
+  border-radius: 8px;
+  transform: rotate(0deg);
+  opacity: 1;
+  margin-bottom: 5px;
+
+
+}
+.icons{
+    margin-bottom: 8px;
+}
+.line2{
+     width: 4px;
+  height: 16px;
+  
+  opacity: 1;
+  position: relative;
+  top: 2px;
+  transform: rotate(0deg);
+}
+.Frame-3-container {
+  width: 180px;
+  height: 360px;
+  padding-bottom: 12px;
+  gap: 4px;
+  opacity: 1;
+  transform: rotate(0deg);
+}
+
+
+
+
+
+
+
+

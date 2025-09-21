@@ -1,0 +1,612 @@
+.eCommerce-Container {
+  width: 892px;
+  position: absolute;
+  top: 140px;
+  left: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+.ecom-row {
+  display: flex;
+  gap: 28px;
+  align-items: flex-start; /* respect individual heights */
+}
+
+.ecom-row > div {
+  flex: 0 0 auto; /* don’t stretch/shrink, keep original width+height */
+}
+
+
+
+
+.ecom-frame1 {
+  width: 432px;
+  height: 252px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  opacity: 1;
+  /* background-color: #ffffff; */
+  padding: 16px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.ecom-frame2 {
+  width: 432px;
+  min-width: 400px;
+  height: 252px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  opacity: 1;
+  background: var(--Primary-Light, #FFFFFF0D);
+  padding: 24px;
+  border-radius: 16px;
+  box-sizing: border-box;
+}
+.ecom-frame3{
+    width: 662px;
+  min-width: 662px;
+  height: 318px;
+  padding: 24px;
+  display: flex; 
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 16px;
+  background: var(--Primary-Light, #FFFFFF0D);
+  opacity: 1;
+}
+.ecom-frame4{
+     width: 202px;
+  min-width: 200px;
+  max-width: 272px;
+  height: 318px;
+  padding: 24px;
+  display: grid; 
+  gap: 16px;
+  border-radius: 16px;
+  background: var(--Primary-Light, #FFFFFF0D);
+  opacity: 1;
+}
+.ecom-frame5{
+    width: 662px;
+  min-width: 662px;
+  height: 336px;
+  padding: 24px;
+  display: grid; 
+  gap: 4px;
+  border-radius: 16px;
+  background: var(--Primary-Light, #FFFFFF0D);
+  opacity: 1;
+}
+.ecom-frame6{
+     width: 202px;
+  min-width: 200px;
+  max-width: 272px;
+  height: 344px;
+  padding: 24px;
+  display: grid; 
+  gap: 16px;
+  border-radius: 16px;
+  background: var(--Primary-Light, #FFFFFF0D);
+  opacity: 1;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 16px; 
+}
+
+.card-item {
+  width: 202px;
+  height: 112px;
+  min-width: 200px;
+  padding: 24px;
+  border-radius: 16px;
+  background: var(--Primary-Light, #FFFFFF0D);
+  opacity: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.card-text {
+  width: 154px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 8px;
+  transform: rotate(0deg);
+  opacity: 1;
+  border-radius: 8px;
+  box-sizing: border-box;
+  /* background: #e6eefc; */
+}
+.card-text-block {
+  width: 154px;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: rotate(0deg);
+  opacity: 1;
+  border-radius: 8px;
+  box-sizing: border-box;
+  /* background: #e6eefc; */
+}
+.box-1 {
+  width: 62px;
+  height: 36px;
+  transform: rotate(0deg);
+  opacity: 1;
+  border-radius: 8px;
+  box-sizing: border-box;
+  /* background: #e6eefc; */
+}
+.box-2 {
+  width: 64px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  transform: rotate(0deg);
+  opacity: 1;
+  border-radius: 8px;
+  box-sizing: border-box;
+  /* background: #e6eefc; */
+}
+.textfield {
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+.numberfield{
+   
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0;
+
+
+}
+.percentage_icon{
+    
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0;
+
+
+}
+
+.highlight-bg {
+  background: #e6eefc;
+  color: black;
+}
+.frame-2-text {
+  width: 384px;
+  height: 20px;
+  border-radius: 8px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 20px;
+}
+.chart-layout {
+  width: 384px;
+  height: 168px;
+  display: flex; 
+  gap: 16px;
+  opacity: 1;
+  border-radius: 8px; 
+}
+.chart-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 8px; 
+}
+.horizontal-row {
+  display: flex;             
+  flex-direction: row;       
+  gap: 12px;                
+  width: 437px;
+  height: 22px;
+  border-radius: 8px;       
+  opacity: 1;
+  align-items: center;       
+}
+.item {
+  padding: 2px 8px;           
+
+  border-radius: 8px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 22px;          
+}
+.item-3{
+    display:flex;
+    gap: 5px;
+}
+.item-4{
+    display: flex;
+    gap: 5px;
+}
+
+.revenue-text{
+    font-family: 'Inter', sans-serif;
+  font-weight: 600;           
+  font-style: normal;          
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+.divider {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;           /* Regular */
+  font-style: normal;          /* Regular */
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: var(--black-20, #FFFFFF33); /* Figma color variable fallback */
+}
+.dot-layer {
+  display: flex;        /* horizontal alignment */
+  flex-direction: row;
+  gap: 16px;            /* space between dots */
+  align-items: center;  /* vertical centering */
+  opacity: 1;           /* layer opacity */
+}
+
+
+.Vdot {
+  /* position: absolute; */
+  top: 5px;
+  left: 5px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--Primary-Brand, #C6C7F8);
+  opacity: 1;
+}
+
+
+.graph-img-layout {
+  width: 614px;
+  height: 232px;
+  display: flex;          /* inner image center panna */
+  justify-content: center; 
+  align-items: center;
+  gap: 16px;              /* inner elements madhiyil space, optional */
+  opacity: 1;
+  border-radius: 8px;     /* optional for smooth corners */
+  overflow: hidden;       /* image rounded corners follow pannum */
+}
+
+.inner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;       /* container full fill pannum, aspect ratio maintain */
+  border-radius: 8px;      /* optional, same as parent */
+}
+.frame4-item {
+  width: 154px;
+  height: 20px;
+  border-radius: 8px;
+  opacity: 1;
+  
+}
+.image-frame {
+  width: 154px;
+  height: 82px;
+  border-radius: 8px;      /* optional, smooth corners */
+  overflow: hidden;         /* image follows border-radius */
+  opacity: 1;
+  display: flex;
+  justify-content: center;  /* image center */
+  align-items: center;
+}
+
+.image-frame .inner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;       /* container full fill pannum without distortion */
+}
+.frame4-row {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;           /* spacing between items */
+  align-items: center;
+}
+
+/* ContentStripline.css */
+
+/* Container */
+.content-container {
+  width: 154px;
+  height: 22px;
+  border-radius: 8px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  transform: rotate(0deg);
+}
+
+/* Horizontal texts */
+.texts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 8px; /* spacing between text1 & text2 */
+  width: 154px;
+  height: 20px;
+  border-radius: 8px;
+  opacity: 1;
+  transform: rotate(0deg);
+}
+
+/* Text style */
+.text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  /* color: #000; */
+}
+
+.stripline-1{
+  width: 114px;
+  height: 2px;
+  border-radius: 80px;
+  background: var(--Secondary-Cyan, #A8C5DA);
+  opacity: 1;
+  transform: rotate(0deg);
+
+  /* Make it possible to place content */
+  display: flex;
+  align-items: center; /* vertical center */
+  justify-content: center; /* horizontal center */
+  padding: 0 4px; /* optional padding */
+  position: relative;
+}
+.stripline-2{
+  width: 64px;
+  height: 2px;
+  border-radius: 80px;
+  background: var(--Secondary-Cyan, #A8C5DA);
+  opacity: 1;
+  transform: rotate(0deg);
+
+  /* Make it possible to place content */
+  display: flex;
+  align-items: center; /* vertical center */
+  justify-content: center; /* horizontal center */
+  padding: 0 4px; /* optional padding */
+  position: relative;
+}
+.stripline-3{
+  width: 74px;
+  height: 2px;
+  border-radius: 80px;
+  background: var(--Secondary-Cyan, #A8C5DA);
+  opacity: 1;
+  transform: rotate(0deg);
+
+  /* Make it possible to place content */
+  display: flex;
+  align-items: center; /* vertical center */
+  justify-content: center; /* horizontal center */
+  padding: 0 4px; /* optional padding */
+  position: relative;
+}
+.stripline-4{
+  width: 94px;
+  height: 2px;
+  border-radius: 80px;
+  background: var(--Secondary-Cyan, #A8C5DA);
+  opacity: 1;
+  transform: rotate(0deg);
+
+  /* Make it possible to place content */
+  display: flex;
+  align-items: center; /* vertical center */
+  justify-content: center; /* horizontal center */
+  padding: 0 4px; /* optional padding */
+  position: relative;
+}
+
+.stripline-text{
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  color: #fff; /* text color on stripline */
+  position: absolute; /* if you want exact overlay */
+}
+
+
+
+.frame5-container {
+  width: 614px;
+  height: 20px;
+  border-radius: 8px;
+  opacity: 1;
+  transform: rotate(0deg);
+
+  display: flex;
+  align-items: center; /* vertical center */
+ 
+}
+.frame5-text {
+  font-family: "Inter", sans-serif;
+  
+ 
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+
+}
+.custom-table {
+ width: 614px; /* updated width */
+  height: 264px; /* updated height */
+  border-collapse: collapse;
+  font-family: "Inter", sans-serif;
+  opacity: 1;
+  transform: rotate(0deg);
+}
+
+.custom-table thead th {
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  font-weight: 400; /* Regular */
+  font-style: normal;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  padding: 8px 12px;
+  color:#FFFFFF66;
+  border-bottom: 2px solid var(--black-40, #FFFFFF66); /* updated border color */
+}
+
+.custom-table tbody td {
+  font-family: "Inter", sans-serif;
+  font-weight: 400; /* Regular */
+  font-style: normal;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  padding: 8px 12px;
+  border-bottom: none; /* no row border */
+
+  color: var(--black-100, #FFFFFF); /* updated background */
+}
+
+.frame-6 {
+  width: 154px;
+  height: 20px;
+  opacity: 1;
+  transform: rotate(0deg);
+  display: flex;
+  align-items: center; /* vertical center */
+ 
+}
+
+.frame-6-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 600; /* Semi Bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  
+}
+
+.frame-6-image {
+  width: 120px;
+  height: 120px;
+  opacity: 1;
+  transform: rotate(0deg);
+  overflow: hidden; /* ensures image stays within frame */
+  border-radius: 8px; /* optional, matches Figma style */
+}
+
+.frame-6-image-img {
+ width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+.custom-container {
+  width: 154px;
+  height: 124px;
+  border-radius: 16px;
+  opacity: 1;
+  transform: rotate(0deg);
+  display: flex;
+  flex-direction: column; /* stack items vertically */
+  gap: 12px; /* spacing between items */
+  
+}
+
+.container-item {
+    width: 154px;
+    height: 22px;
+  flex: 1; /* equal height for each item */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  /* color: #000; */
+}
+.left-text {
+  display: flex;
+  align-items: center;
+  gap: 4px; /* space between dot and text */
+}
+
+.frame6dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--Primary-Brand, #C6C7F8);
+  opacity: 1;
+  /* position: relative; */
+  top: 5px;
+  left: 5px;
+  transform: rotate(0deg);
+}
+.affliateDot{
+    background: var(--Secondary-Mint, #BAEDBD);
+
+}
+.sponsoredDot{
+    background: var(--Secondary-Indigo, #95A4FC);
+
+}
+.emaildot{
+    background: var(--Secondary-Blue, #B1E3FF);
+
+}
+.frame6inside-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  /* color: #000; */
+}
+
+.amount {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0%;
+}
+

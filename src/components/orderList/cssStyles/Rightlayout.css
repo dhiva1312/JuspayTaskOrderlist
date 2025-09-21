@@ -1,0 +1,72 @@
+.rightbar-section {
+  width: 280px;
+  height: 1206px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 20px;
+  border-left: 1px solid var(--black-10, #FFFFFF1A);
+  opacity: 1;
+  
+}
+
+.rightbar-frame {
+  width: 240px;
+  height: 252px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  opacity: 1;
+  transform: rotate(0deg);
+
+  border-radius: 8px; /* optional */
+  padding: 8px; /* optional */
+}
+.rightbar-frame-two {
+  width: 240px;
+  height: 306px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  opacity: 1;
+  transform: rotate(0deg);
+
+  border-radius: 8px; /* optional */
+  padding: 8px; /* optional */
+}
+.rightbar-frame-three {
+  width: 240px;
+  height: 276px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  opacity: 1;
+  transform: rotate(0deg);
+  border-radius: 8px; /* optional */
+  padding: 8px; /* optional */
+}
+.NotificationText {
+  width: 240px;
+  height: 36px;
+  border-radius: 8px;
+  padding: 8px 4px;
+  opacity: 1;
+  /* border: 1px solid #ccc; */
+  outline: none;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.vertical-strip {
+  width: 1px;
+  height: 176px;
+  background-color: var(--black-10, #e0e0e0);
+  opacity: 1;
+  margin: 40px 0; /* top-bottom gap */
+  align-self: center;
+}
+
+
+
+
+
+
